@@ -1,0 +1,79 @@
+<nav class="navbar is-fixed-top">
+  <div class="navbar-brand">
+    <a class="logo" href="#">
+      <img src="../../assets/img/logo.png" alt="Bulma: a modern CSS framework based on Flexbox" class="img-logo">
+    </a>
+    <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="#" *ngFor="let item of linkPages">
+          {{item.link}}
+      </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="#">
+          About
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" href="#">
+            Chi Siamo
+          </a>
+          <a class="navbar-item" href="#">
+            Dove siamo
+          </a>
+          <a class="navbar-item" href="#">
+            Prenotazioni
+          </a>
+          <a class="navbar-item" href="#">
+            Termini & Condizioni
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item" href="#">
+            Contatti
+          </a>
+          <a class="navbar-item is-active" href="#">
+            Recensioni
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="bd-tw-button button" data-social-network="Instagram" data-social-action="post" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
+              <span class="icon">
+                <i class="fab fa-instagram"></i>
+              </span>
+              <span>
+                Follow Us
+              </span>
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-warning fw-bold" href="https://www.booking.com/hotel/it/gli-zii-di-sicilia-casa-vacanze.it.html?label=gen173nr-1FCAsocUIfZ2xpLXppaS1kaS1zaWNpbGlhLWNhc2EtdmFjYW56ZUgUWARocYgBApgBFLgBGMgBEdgBAegBAfgBA4gCAagCBLgCu6u2nAbAAgHSAiQ1ZDA2MGY5YS1jMmJjLTQ4YWQtOGViZi1hZWM5YWNiYmIyOTXYAgXgAgE&sid=8dc22fb287a14ef1a78cbbd4b5fe6ca8&dist=0&keep_landing=1&sb_price_type=total&type=total&">
+              <span class="icon">
+                <i class="fa-solid fa-ticket"></i>
+              </span>
+              <span>Prenota</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<app-carousel></app-carousel>
+<app-preview></app-preview>
+<app-litleus></app-litleus>
+<app-sunset></app-sunset>
+<app-magic></app-magic>
+<app-footer></app-footer>
+<!-- end header start new component-->
+

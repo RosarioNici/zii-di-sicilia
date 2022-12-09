@@ -1,0 +1,17 @@
+.logo{
+  height: 80px;
+  padding-left: 5px;
+}
+.img-logo{
+  width: 80px;
+
+}
+a{
+  text-decoration: none;
+}
+.hero{
+  margin-top: 106px;
+}
+.navbar{
+  background-color: antiquewhite;
+}

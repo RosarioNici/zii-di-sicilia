@@ -1,0 +1,22 @@
+.bg-color-footer{
+  background-color: antiquewhite;
+
+}
+
+.logo-footer-ps{
+  width: 125px;
+}
+
+.fa-brands {
+  color: rgb(209, 173, 52);
+  transition: .6s;
+}
+
+.fa-brands:hover{
+  transform: scale(0.6);
+}
+
+.img-one{
+  width: 20px;
+  margin-left: 5px;
+}

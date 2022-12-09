@@ -1,0 +1,18 @@
+.title-flex {
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.text-of-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: inherit;
+  max-width: 250px;
+}
+.text-of-flex>* {
+  padding: 10px;
+  text-align: left;
+}
+.sunset{
+  margin-top: 150px;
+}

@@ -1,0 +1,67 @@
+.square-s {
+  width: calc(100% / 2);
+  height: 216px;
+  background-color: white;
+  padding: 5px;
+}
+.square-l {
+  width: calc(100% / 3);
+  height: 546.33px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square-s{
+  transition: 0.7s;
+}
+img{
+  height: 100%px;
+}
+
+.clear:hover {
+  border: 20px solid rgb(255, 234, 141);
+}
+
+.planet:hover {
+  border: 20px solid rgb(116, 132, 194);
+}
+
+.hearst:hover {
+  border: 20px solid rgb(207, 228, 245);
+}
+
+.bicycle:hover {
+  border: 20px solid rgb(233, 98, 119);
+}
+
+.topps:hover {
+  border: 20px solid rgb(248, 103, 103);
+}
+
+.florida:hover {
+  border: 20px solid rgb(101, 192, 228);
+}
+
+.bordeaux:hover {
+  border: 20px solid rgb(136, 62, 91);
+}
+
+
+.carousel{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.preview{
+  margin-top: 300px;
+}
+.logo-card{
+  width: 75px;
+}
+.card{
+  transition: 0.7s;
+}
+.card:hover{
+  transform: scale(.9);
+}
