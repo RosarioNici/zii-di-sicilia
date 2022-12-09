@@ -13,6 +13,7 @@ import { SunsetComponent } from './home/sunset/sunset.component';
 import { LitleusComponent } from './home/litleus/litleus.component';
 import { MagicComponent } from './home/magic/magic.component';
 import { FooterComponent } from './home/footer/footer.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './home/footer/footer.component';
     SunsetComponent,
     LitleusComponent,
     MagicComponent,
-    FooterComponent
+    FooterComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,

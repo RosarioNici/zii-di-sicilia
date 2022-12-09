@@ -1,0 +1,29 @@
+.logo{
+  height: 80px;
+  padding-left: 5px;
+}
+.img-logo{
+  width: 80px;
+
+}
+a{
+  text-decoration: none;
+}
+.hero{
+  margin-top: 106px;
+}
+.navbar{
+  background-color: antiquewhite;
+}
+
+.from-mar{
+  margin-top: 200px;
+}
+.fa-brands {
+  color: #ebb163;
+  transition: .6s;
+}
+
+.fa-brands:hover{
+  transform: scale(1.4);
+}
