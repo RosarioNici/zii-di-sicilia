@@ -15,6 +15,7 @@ import { MagicComponent } from './home/magic/magic.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { FormComponent } from './form/form.component';
 import { FoodComponent } from './food/food.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FoodComponent } from './food/food.component';
     MagicComponent,
     FooterComponent,
     FormComponent,
-    FoodComponent
+    FoodComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,

@@ -13,6 +13,6 @@ export const links = [
   },
   {
     link:'Esperienze',
-    router:'experience'
+    router:'exper'
   }
 ]

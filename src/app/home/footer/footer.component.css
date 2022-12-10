@@ -27,3 +27,13 @@
 color:  #dc3545;
 }
 
+a{
+  text-decoration: none;
+}
+.red{
+  color: #dc3545;
+}
+
+.red:hover{
+  color: blue;
+}

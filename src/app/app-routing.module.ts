@@ -5,13 +5,15 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { HomeComponent } from './home/home.component';
 import { FormComponent } from './form/form.component';
 import { FoodComponent } from './food/food.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 
 const routes: Routes =[
   {path: '', component: WelcomeComponent},
   {path: 'home', component:HomeComponent},
   {path: 'contact', component:FormComponent},
-  {path: 'food', component:FoodComponent}
+  {path: 'food', component:FoodComponent},
+  {path: 'exper', component:ExperienceComponent}
 ]
 
 
