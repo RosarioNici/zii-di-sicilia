@@ -4,12 +4,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { HomeComponent } from './home/home.component';
 import { FormComponent } from './form/form.component';
+import { FoodComponent } from './food/food.component';
 
 
 const routes: Routes =[
   {path: '', component: WelcomeComponent},
   {path: 'home', component:HomeComponent},
-  {path: 'contact', component:FormComponent}
+  {path: 'contact', component:FormComponent},
+  {path: 'food', component:FoodComponent}
 ]
 
 

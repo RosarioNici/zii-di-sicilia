@@ -14,6 +14,7 @@ import { LitleusComponent } from './home/litleus/litleus.component';
 import { MagicComponent } from './home/magic/magic.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { FormComponent } from './form/form.component';
+import { FoodComponent } from './food/food.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FormComponent } from './form/form.component';
     LitleusComponent,
     MagicComponent,
     FooterComponent,
-    FormComponent
+    FormComponent,
+    FoodComponent
   ],
   imports: [
     BrowserModule,

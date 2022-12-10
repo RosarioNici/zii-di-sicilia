@@ -16,3 +16,8 @@
 .sunset{
   margin-top: 150px;
 }
+.img-sun{
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

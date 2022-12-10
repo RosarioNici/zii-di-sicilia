@@ -3,16 +3,11 @@
     <a class="logo" href="#">
       <img src="../../assets/img/logo.png" alt="Bulma: a modern CSS framework based on Flexbox" class="img-logo">
     </a>
-    <div class="navbar-burger" data-target="navbarExampleTransparentExample">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
   </div>
 
   <div id="navbarExampleTransparentExample" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item" href="#" *ngFor="let item of linkPages">
+      <a class="navbar-item" [href]="item.router" *ngFor="let item of linkPages">
           {{item.link}}
       </a>
       <div class="navbar-item has-dropdown is-hoverable">
@@ -46,12 +41,16 @@
         </div>
       </div>
     </div>
-
+    <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="field is-grouped">
           <p class="control">
-            <a class="bd-tw-button button" data-social-network="Instagram" data-social-action="post" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
+            <a class="bd-tw-button button  fw-bold" data-social-network="Instagram" data-social-action="post" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
               <span class="icon">
                 <i class="fab fa-instagram"></i>
               </span>

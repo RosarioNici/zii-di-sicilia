@@ -15,3 +15,12 @@ a{
 .navbar{
   background-color: antiquewhite;
 }
+
+.bd-tw-button{
+  background-color: #dc3545;
+  color: white;
+}
+.is-warning{
+  color: white;
+  background-color: #fccd4d;
+}

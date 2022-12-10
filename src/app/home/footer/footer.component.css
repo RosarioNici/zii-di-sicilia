@@ -8,7 +8,6 @@
 }
 
 .fa-brands {
-  color: rgb(209, 173, 52);
   transition: .6s;
 }
 
@@ -20,3 +19,11 @@
   width: 20px;
   margin-left: 5px;
 }
+.fa-airbnb{
+  color: #fccd4d;
+
+}
+.fa-instagram{
+color:  #dc3545;
+}
+

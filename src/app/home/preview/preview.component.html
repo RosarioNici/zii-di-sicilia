@@ -1,35 +1,36 @@
-<div class="text-center preview p-5"><h1>Cos'è Gli Zii di Sicilia?</h1></div>
-<div class="container-lg d-flex " >
-  <div class="card col-lg-4 col-12 m-2" *ngFor="let item of data">
-    <div class="card-image">
-      <figure class="image is-4by3">
-        <img [src]="item.image" alt="Placeholder image">
-      </figure>
-    </div>
-    <div class="card-content">
-      <div class="media">
-        <div class="media-left">
-          <figure class="image is-75x75 logo-card">
-            <img src="../../../assets/img/logo.png" alt="Placeholder image">
-          </figure>
-        </div>
-        <div class="media-content">
-          <p class="title is-4">{{item.title}}</p>
-          <a href="#" class="subtitle is-6">@gliziidisicilia</a>
-        </div>
+<div class="preview">
+  <div class="text-center p-2 my-3 container-lg"><h1>Cos'è Gli Zii di Sicilia?</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium a quo earum, numquam repellat quibusdam sequi! Modi, aperiam, rerum ipsa eveniet dignissimos temporibus porro, omnis ullam deserunt corrupti numquam deleniti!</p></div>
+  <div class="container-lg d-flex flex-wrap" >
+    <div class="card col-lg-4 col-12 m-2" *ngFor="let item of data">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img [src]="item.image" alt="Placeholder image">
+        </figure>
       </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-75x75 logo-card">
+              <img src="../../../assets/img/logo.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="title is-4">{{item.title}}</p>
+            <a href="#" class="subtitle is-6">@gliziidisicilia</a>
+          </div>
+        </div>
 
-      <div class="content">
-        {{item.descrizione}}
-        <br>
-        <a href="#">#gliziidisicilia</a>
-        <br>
-        <button type="button" class="btn btn-warning my-4">Scopri di Più</button>
+        <div class="content">
+          {{item.descrizione}}
+          <br>
+          <a href="#">#gliziidisicilia</a>
+          <br>
+          <button type="button" class="btn btn-warning my-4">Scopri di Più</button>
+        </div>
       </div>
     </div>
+
+
   </div>
-
-
 </div>
-
 

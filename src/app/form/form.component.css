@@ -20,10 +20,19 @@ a{
   margin-top: 200px;
 }
 .fa-brands {
-  color: #ebb163;
+
   transition: .6s;
 }
 
 .fa-brands:hover{
   transform: scale(1.4);
+}.fa-airbnb{
+  color: #fccd4d;
+
+}
+.fa-instagram{
+color:  #dc3545;
+}
+.fa-whatsapp{
+  color: green;
 }

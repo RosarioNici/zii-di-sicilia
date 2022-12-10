@@ -1,7 +1,7 @@
 export const dataPrev =[
   {
     title:'Casa Vacanze',
-    image: '../../../assets/img/cucina.jpeg',
+    image: '../../../assets/img/openckitchen.jpeg',
     descrizione:'Le migliori strutture per il tuo sogno',
     button:'Scopri di più',
     class:'planet'
@@ -15,7 +15,7 @@ export const dataPrev =[
   },
   {
     title:'Esperienze',
-    image: '../../../assets/img/olive.jpeg',
+    image: '../../../assets/img/olive-or.jpeg',
     descrizione:'Pronti Parteza VIA!!!',
     button:'Scopri di più',
     class:'topps'

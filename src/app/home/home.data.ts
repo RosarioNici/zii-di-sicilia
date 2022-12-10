@@ -1,18 +1,18 @@
 export const links = [
   {
     link:'Home',
-    router:''
+    router:'home'
   },
   {
     link:'Appartamenti',
-    router:''
+    router:'house'
   },
   {
     link:'Food',
-    router:''
+    router:'food'
   },
   {
     link:'Esperienze',
-    router:''
+    router:'experience'
   }
 ]
