@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { GoogleMapsModule } from '@angular/google-maps';
+import { ReactiveFormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+
 
 
 import { AppComponent } from './app.component';
@@ -30,12 +33,17 @@ import { ExperienceComponent } from './experience/experience.component';
     FooterComponent,
     FormComponent,
     FoodComponent,
-    ExperienceComponent
+    ExperienceComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     GoogleMapsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+
+
 
 
   ],
