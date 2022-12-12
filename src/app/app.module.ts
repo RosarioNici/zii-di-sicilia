@@ -6,6 +6,7 @@ import {HttpClientModule} from '@angular/common/http';
 
 
 
+
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -19,6 +20,9 @@ import { FooterComponent } from './home/footer/footer.component';
 import { FormComponent } from './form/form.component';
 import { FoodComponent } from './food/food.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { AppartamentsComponent } from './appartaments/appartaments.component';
+import { Appart01Component } from './appart01/appart01.component';
+import { WhereComponent } from './appart01/where/where.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +38,9 @@ import { ExperienceComponent } from './experience/experience.component';
     FormComponent,
     FoodComponent,
     ExperienceComponent,
+    AppartamentsComponent,
+    Appart01Component,
+    WhereComponent,
 
   ],
   imports: [

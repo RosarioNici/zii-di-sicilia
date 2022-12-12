@@ -5,7 +5,7 @@ export const links = [
   },
   {
     link:'Appartamenti',
-    router:'house'
+    router:'appart'
   },
   {
     link:'Food',
