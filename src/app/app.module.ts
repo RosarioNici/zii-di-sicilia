@@ -23,6 +23,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { AppartamentsComponent } from './appartaments/appartaments.component';
 import { Appart01Component } from './appart01/appart01.component';
 import { WhereComponent } from './appart01/where/where.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { WhereComponent } from './appart01/where/where.component';
     AppartamentsComponent,
     Appart01Component,
     WhereComponent,
+    MenuComponent,
 
   ],
   imports: [

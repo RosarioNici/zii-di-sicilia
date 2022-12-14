@@ -1,0 +1,93 @@
+
+<nav class="navbar is-fixed-top">
+  <div class="navbar-brand">
+    <a class="logo" href="#">
+      <img src="../../assets/img/logo.png" alt="Bulma: a modern CSS framework based on Flexbox" class="img-logo">
+    </a>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" [href]="item.router" *ngFor="let item of linkPages">
+          {{item.link}}
+      </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="#">
+          About
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" href="#">
+            Chi Siamo
+          </a>
+          <a class="navbar-item" href="#">
+            Dove siamo
+          </a>
+          <a class="navbar-item" data-bs-toggle="dropdown" aria-expanded="false">
+            Prenotazioni
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://www.booking.com/hotel/it/gli-zii-di-sicilia-casa-vacanze.it.html?label=gen173nr-1FCAsocUIfZ2xpLXppaS1kaS1zaWNpbGlhLWNhc2EtdmFjYW56ZUgUWARocYgBApgBFLgBGMgBEdgBAegBAfgBA4gCAagCBLgCu6u2nAbAAgHSAiQ1ZDA2MGY5YS1jMmJjLTQ4YWQtOGViZi1hZWM5YWNiYmIyOTXYAgXgAgE&sid=8dc22fb287a14ef1a78cbbd4b5fe6ca8&dist=0&keep_landing=1&sb_price_type=total&type=total&">Booking.com</a></li>
+              <li><a class="dropdown-item" href="https://www.airbnb.it/rooms/647477598459115086?guests=1&adults=1&s=67&unique_share_id=daf10e2a-3bd6-4c9b-9565-faba5d26bcad">AirBnB</a></li>
+            </ul>
+          </a>
+          <a class="navbar-item" href="#">
+            Termini & Condizioni
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item" href="contact">
+            Contatti
+          </a>
+          <a class="navbar-item is-active" href="#">
+            Recensioni
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="bd-tw-button button  fw-bold" data-social-network="Instagram" data-social-action="post" data-social-target="https://bulma.io" target="_blank" href="https://instagram.com/gliziidisicilia?igshid=YmMyMTA2M2Y=">
+              <span class="icon">
+                <i class="fab fa-instagram"></i>
+              </span>
+              <span>
+                Follow Us
+              </span>
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-warning fw-bold" href="https://www.booking.com/hotel/it/gli-zii-di-sicilia-casa-vacanze.it.html?label=gen173nr-1FCAsocUIfZ2xpLXppaS1kaS1zaWNpbGlhLWNhc2EtdmFjYW56ZUgUWARocYgBApgBFLgBGMgBEdgBAegBAfgBA4gCAagCBLgCu6u2nAbAAgHSAiQ1ZDA2MGY5YS1jMmJjLTQ4YWQtOGViZi1hZWM5YWNiYmIyOTXYAgXgAgE&sid=8dc22fb287a14ef1a78cbbd4b5fe6ca8&dist=0&keep_landing=1&sb_price_type=total&type=total&">
+              <span class="icon">
+                <i class="fa-solid fa-ticket"></i>
+              </span>
+              <span>Prenota</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dropstart hambu-menu">
+    <button class="btn btn-secondary dropdown-toggle dropdown-toggle-split fw-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Menu
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="appart">Appartamenti</a></li>
+      <li><a class="dropdown-item" href="food">Food</a></li>
+      <li><a class="dropdown-item" href="exper">Esperienze</a></li>
+      <li><a class="dropdown-item" href="contact">Contattaci</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="https://www.booking.com/hotel/it/gli-zii-di-sicilia-casa-vacanze.it.html?label=gen173nr-1FCAsocUIfZ2xpLXppaS1kaS1zaWNpbGlhLWNhc2EtdmFjYW56ZUgUWARocYgBApgBFLgBGMgBEdgBAegBAfgBA4gCAagCBLgCu6u2nAbAAgHSAiQ1ZDA2MGY5YS1jMmJjLTQ4YWQtOGViZi1hZWM5YWNiYmIyOTXYAgXgAgE&sid=8dc22fb287a14ef1a78cbbd4b5fe6ca8&dist=0&keep_landing=1&sb_price_type=total&type=total&">Prenotazioni
+      </a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
