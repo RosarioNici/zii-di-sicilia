@@ -36,3 +36,19 @@ color:  #dc3545;
 .fa-whatsapp{
   color: green;
 }
+
+
+@media screen and (max-width: 900px){
+  .from-mar{
+    flex-direction: column;
+  }
+  .icon-social{
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  .component{
+    margin-top: 70px;
+    width: 100%;
+  }
+}

@@ -1,80 +1,9 @@
-<nav class="navbar is-fixed-top">
-  <div class="navbar-brand">
-    <a class="logo" href="#">
-      <img src="../../assets/img/logo.png" alt="Bulma: a modern CSS framework based on Flexbox" class="img-logo">
-    </a>
-    <div class="navbar-burger" data-target="navbarExampleTransparentExample">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
-
-  <div id="navbarExampleTransparentExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item" [href]="item.router" *ngFor="let item of linkPages">
-          {{item.link}}
-      </a>
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link" href="#">
-          About
-        </a>
-        <div class="navbar-dropdown is-boxed">
-          <a class="navbar-item" href="#">
-            Chi Siamo
-          </a>
-          <a class="navbar-item" href="#">
-            Dove siamo
-          </a>
-          <a class="navbar-item" data-bs-toggle="dropdown" aria-expanded="false">
-            Prenotazioni
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="https://www.booking.com/hotel/it/gli-zii-di-sicilia-casa-vacanze.it.html?label=gen173nr-1FCAsocUIfZ2xpLXppaS1kaS1zaWNpbGlhLWNhc2EtdmFjYW56ZUgUWARocYgBApgBFLgBGMgBEdgBAegBAfgBA4gCAagCBLgCu6u2nAbAAgHSAiQ1ZDA2MGY5YS1jMmJjLTQ4YWQtOGViZi1hZWM5YWNiYmIyOTXYAgXgAgE&sid=8dc22fb287a14ef1a78cbbd4b5fe6ca8&dist=0&keep_landing=1&sb_price_type=total&type=total&">Booking.com</a></li>
-              <li><a class="dropdown-item" href="https://www.airbnb.it/rooms/647477598459115086?guests=1&adults=1&s=67&unique_share_id=daf10e2a-3bd6-4c9b-9565-faba5d26bcad">AirBnB</a></li>
-            </ul>
-          </a>
-          <a class="navbar-item" href="#">
-            Termini & Condizioni
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item is-active" href="#">
-            Recensioni
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="field is-grouped">
-          <p class="control">
-            <a class="bd-tw-button button" data-social-network="Instagram" data-social-action="post" data-social-target="https://bulma.io" target="_blank" href="https://instagram.com/gliziidisicilia?igshid=YmMyMTA2M2Y=">
-              <span class="icon">
-                <i class="fab fa-instagram"></i>
-              </span>
-              <span>
-                Follow Us
-              </span>
-            </a>
-          </p>
-          <p class="control">
-            <a class="button is-warning fw-bold" href="https://www.booking.com/hotel/it/gli-zii-di-sicilia-casa-vacanze.it.html?label=gen173nr-1FCAsocUIfZ2xpLXppaS1kaS1zaWNpbGlhLWNhc2EtdmFjYW56ZUgUWARocYgBApgBFLgBGMgBEdgBAegBAfgBA4gCAagCBLgCu6u2nAbAAgHSAiQ1ZDA2MGY5YS1jMmJjLTQ4YWQtOGViZi1hZWM5YWNiYmIyOTXYAgXgAgE&sid=8dc22fb287a14ef1a78cbbd4b5fe6ca8&dist=0&keep_landing=1&sb_price_type=total&type=total&">
-              <span class="icon">
-                <i class="fa-solid fa-ticket"></i>
-              </span>
-              <span>Prenota</span>
-            </a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</nav>
+<app-menu></app-menu>
 
 <div class="bg-img">
   <div class="container-lg from-mar d-flex">
-   <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
-      <div class="col-6  form d-flex flex-wrap">
+   <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="col-lg-6">
+      <div class="form d-flex flex-wrap">
         <h4>Scrivici</h4>
         <div class="form-floating mb-3 mx-1 col-12">
           <input type="text" class="form-control " id="floatingInput" placeholder="name@example.com" formControlName="nome">
@@ -346,35 +275,37 @@
         <button class="button is-danger " type="submit" [disabled]="!contactForm.valid">Invia</button>
 
       </div>
-  </form>
-    <div class="col-6 d-flex flex-column justify-content-between align-items-center" >
-      <h4>Oppure contattaci sui nostri social</h4>
-        <a href="https://instagram.com/gliziidisicilia?igshid=YmMyMTA2M2Y=" class="mx-3 fs-1"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.facebook.com/CasaVacanzeGliziidiSicilia" class="mx-3 fs-1"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.airbnb.it/rooms/647477598459115086?guests=1&adults=1&s=67&unique_share_id=daf10e2a-3bd6-4c9b-9565-faba5d26bcad" class="mx-3 fs-1"><i class="fa-brands fa-airbnb"></i></a>
-        <a class="mx-3 fs-1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-brands fa-whatsapp"></i></a>
+   </form>
 
-<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Chiama Vanessa</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    <p>
-      Chiama Vanessa che si occuperà di supportarvi e darvi assistenza con i nostri servizi
-    </p>
-    <p>
-      Chiama al <b>+39 3883622151</b>
-    </p>
-    <p>
-      O puuoi contattarci anche su <i class="fa-brands fa-whatsapp"></i>
-    </p>
-    <p>
-      Vi aguriamo un soggiorno da sogno
-      restiamo sempre a vostra disposizione.
-    </p>
-  </div>
-</div>
+      <div class="col-6 d-flex  flex-column justify-content-between align-items-center component" >
+        <h4>Oppure contattaci sui nostri social</h4>
+        <div class="icon-social">
+          <a href="https://instagram.com/gliziidisicilia?igshid=YmMyMTA2M2Y=" class="mx-3 fs-1"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/CasaVacanzeGliziidiSicilia" class="mx-3 fs-1"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.airbnb.it/rooms/647477598459115086?guests=1&adults=1&s=67&unique_share_id=daf10e2a-3bd6-4c9b-9565-faba5d26bcad" class="mx-3 fs-1"><i class="fa-brands fa-airbnb"></i></a>
+          <a class="mx-3 fs-1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Chiama Vanessa</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>
+            Chiama Vanessa che si occuperà di supportarvi e darvi assistenza con i nostri servizi
+          </p>
+          <p>
+            Chiama al <b>+39 3883622151</b>
+          </p>
+          <p>
+            O puuoi contattarci anche su <i class="fa-brands fa-whatsapp"></i>
+          </p>
+          <p>
+            Vi aguriamo un soggiorno da sogno
+            restiamo sempre a vostra disposizione.
+          </p>
+        </div>
+      </div>
     </div>
 
   </div>

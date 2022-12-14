@@ -65,3 +65,30 @@ section{
 .fa-solid{
   font-size: 36px;
 }
+
+@media screen and (max-width: 700px) {
+  .container-square {
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+  }
+  .square-l{
+    width: 100%;
+    justify-content:center;
+      align-items: center;
+  }
+  .distance{
+    width: 100%;
+    margin-top: 60px;
+  }
+  .presentation {
+    width: 100%;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  }
+  .text-of-flex{
+    margin-top: 40px;
+  }
+
+}
