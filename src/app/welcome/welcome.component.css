@@ -26,3 +26,10 @@ button{
   margin-left: 5px;
 color: aliceblue;
 }
+
+@media screen and (max-width: 600px) {
+  .button-logo {
+    bottom: 100px;
+    left: 100px;
+
+  }}
