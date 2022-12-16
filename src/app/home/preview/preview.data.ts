@@ -4,21 +4,24 @@ export const dataPrev =[
     image: '../../../assets/img/openckitchen.jpeg',
     descrizione:'Le migliori strutture per il tuo sogno',
     button:'Scopri di più',
-    class:'planet'
+    class:'planet',
+    link:'appart'
   },
   {
     title:'Food',
     image: '../../../assets/img/bg-gelato.jpeg',
     descrizione:'Assaggia la Sicilia... anche a casa tua',
     button:'Scopri di più',
-    class:'topps'
+    class:'topps',
+    link:'food'
   },
   {
     title:'Esperienze',
     image: '../../../assets/img/olive-or.jpeg',
     descrizione:'Pronti Parteza VIA!!!',
     button:'Scopri di più',
-    class:'topps'
+    class:'topps',
+    link:'exper'
   }]
 
   export const slides = [{

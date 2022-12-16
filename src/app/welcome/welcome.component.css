@@ -13,7 +13,7 @@
   box-shadow: 0px 0px 10px rgb(48, 47, 47);
   background: url(../../assets/img/logo.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -27,12 +27,24 @@ button{
 color: aliceblue;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .button-logo {
     bottom: 100px;
-    left: 150px;
+    left: 140px;
 
   }}
+@media screen and (max-width: 600px) {
+  .button-logo {
+    bottom: 50px;
+    left: 150px;
+
+  }
+  .logo-c {
+    width: 500px;
+    height: 500px;
+
+  }
+}
   @media screen and (max-width: 500px) {
     .logo-c {
       width: 400px;
@@ -45,8 +57,10 @@ color: aliceblue;
   }
   .button-logo {
     bottom: 25px;
-    left: 90px;
+    left: 85px;
 
   }
 
+
   }
+
